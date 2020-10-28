@@ -2,4 +2,10 @@
 
 body {
   font-family: 'Roboto',Helvetica,Arial,sans-serif;
+  font-size: 20px;
+}
+
+ul.items_nav > li > a {
+  font-size: 0.8em;
+  color: #031b4f;
 }
