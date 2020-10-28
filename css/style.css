@@ -12,6 +12,7 @@ body {
 a:hover {
     color: #006aff!important;
   }
+
 /***NAVBAR***/
 nav {
   background-color: white;
@@ -59,8 +60,25 @@ ul.items_nav > li > a:hover {
   font-size: 12px;
   text-decoration:none;
 }
+
 /***NAVBAR-LEFT-CLOSE***/
 /***NAVBAR-RIGHT***/
+span.btn_outline_blue{
+  .btn_outline_blue
+}
+.btn_outline_blue {
+  background-color: transparent;
+  border: 2px solid #006aff;
+  color: #006aff;
+}
+.btn_outline_blue:hover {
+  background-color: #006aff;
+  border-color: #006aff;
+  color: #fff;
+}
+#toogle_menu {
+  display: none;
+}
 
 /***NAVBAR-RIGHT-CLOSE***/
 /***NAVBAR-CLOSE***/
@@ -68,11 +86,21 @@ ul.items_nav > li > a:hover {
 
 
 /* responsive */
-@media (min-width: 768px) {
-  .navbar-nav > li > a {
-    /* (60px - line-height of 27px) / 2 = 26.5px */
-    padding-top: 16.5px;
-    padding-bottom: 16.5px;
-    line-height: 27px;
+@media (max-width: 992px) {
+  ul.items_nav{
+    display: none;
+  }
+  #toogle_menu span {
+    border-bottom: 2px solid #006aff;
+    margin:5px;
+    width: 20px;
+    display: block;
+  }
+  #toogle_menu {
+    display: inline-block;
+    width: 60px;
+    position: relative;
+    float: right;
+    line-height: 60px;
   }
 }
