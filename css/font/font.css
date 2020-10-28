@@ -7,17 +7,54 @@ body {
 h1 {
   font-size: 2.9em;
 }
-p {
-  font-weight: 300;
-}
+
+/***HEADER***/
+/***NAV***/
 ul.items_nav > li > a {
   font-size: 0.8em;
   color: #031b4f;
 }
-
+/***NAV-CLOSE***/
+/***Jumbotron***/
 #description {
   font-size: 1.3em;
+  font-weight: 300;
 }
 .font_blue_light {
   color: #006aff;
+}
+
+#sign_up h3 {
+  margin-top: 10px;
+  font-size: 1.6em;
+}
+
+.terms_service {
+  font-size: 0.8em;
+  color: #031c4e;
+  font-weight: 400;
+}
+
+.terms_service a {
+  text-decoration: underline;
+}
+
+/***Jumbotron-CLOSE***/
+/***HEADER-CLOSE***/
+/* responsive */
+/* table */
+@media (max-width: 992px) {
+  body {
+    font-size: 18px;
+  }
+
+  .navbar-header {
+    width: 100%;
+  }
+}
+@media (max-width: 766px) {
+  body {
+    font-size: 13px;
+  }
+  
 }

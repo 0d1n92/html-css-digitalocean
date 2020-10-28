@@ -17,9 +17,16 @@
       <nav id="nav" class="navbar navbar-fixed-top">
         <div class="container">
           <div class="navbar-header">
-            <a class="navbar-brand" href="#">
+            <a id="navbar_brand" class="navbar-brand" href="#">
             <img alt="Brand" src="img/logo.png">
             </a>
+            <div id="toogle_menu">
+              <a class="btn" href="#">
+                <span></span>
+                <span></span>
+                <span></span>
+              </a>
+            </div>
           </div>
           <ul class="items_nav nav navbar-nav">
             <li><a class="my_dropdown" href="#">Products</a></li>
@@ -33,34 +40,29 @@
             <li><a href="">Login</a></li>
             <li><a href=""><span class="btn_outline_blue btn">Sign Up</span></a></li>
           </ul>
-          <div id="toogle_menu">
-            <a class="btn" href="#">
-              <span></span>
-              <span></span>
-              <span></span>
-            </a>
-          </div>
+
         </div>
       </nav>
       <div id="jumbotron">
         <div class="vertical_align_center container">
           <div id="hero-body" class="row">
-            <section id="hero-title" class="col-xs-12 col-lg-7">
+            <section id="hero-title" class="col-xs-12 col-sm-7">
               <div class="wrap_col">
                 <h1>The simplest cloud platform for developers & teams</h1>
                 <p id="description">Deploy, menage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, whether you're running one virtual macchine er ten thousand.</p>
               </div>
             </section>
-            <section id="sign_up" class="col-xs-12 col-lg-5">
+            <section id="sign_up" class="col-xs-12 col-sm-5">
                 <div class="panel panel-default">
                   <div class="panel-body">
                     <h3>Deploy your app in seconds.</h3>
                     <h3 class="font_blue_light">Get started now.</h3>
                     <form id="sign_up_form" action="index.html" method="post">
                       <input type="email" name="email" value="" placeholder="Email">
-                      <input type="password" name="pswd" value="" placeholder="password">
+                      <input type="password" name="pswd" value="" placeholder="Password">
                       <button type="submit" id="btn_form_signup" class="btn  btn-sm btn-block">Create your account</button>
-                      <button type="submit" id="signup_with_g" class="btn btn-sm btn-block">Create your account</button>
+                      <button type="submit" id="signup_with_g" class="btn btn-sm btn-block"><img src="img/icon/google.png" alt="">Sign Up with Google</button>
+                      <p class="terms_service">By signing up you agree to the <a href="#">Terms of Service</a>.</p>
                     </form>
                   </div>
                 </div>
@@ -68,7 +70,13 @@
           </div>
         </div>
       </div>
-
     </header>
+    <main>
+      <div id="section_parteners" class="padding_section">
+        <div class="container">
+          <h4 class="text-uppercase">innovative businesses trust digitalocean</h4>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
