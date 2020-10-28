@@ -4,8 +4,20 @@ body {
   font-family: 'Roboto',Helvetica,Arial,sans-serif;
   font-size: 20px;
 }
-
+h1 {
+  font-size: 2.9em;
+}
+p {
+  font-weight: 300;
+}
 ul.items_nav > li > a {
   font-size: 0.8em;
   color: #031b4f;
+}
+
+#description {
+  font-size: 1.3em;
+}
+.font_blue_light {
+  color: #006aff;
 }

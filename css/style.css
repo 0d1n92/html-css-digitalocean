@@ -13,6 +13,12 @@ a:hover {
     color: #006aff!important;
   }
 
+.vertical_align_center {
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
 /***NAVBAR***/
 nav {
   background-color: white;
@@ -79,26 +85,55 @@ span.btn_outline_blue{
 #toogle_menu {
   display: none;
 }
-
 /***NAVBAR-RIGHT-CLOSE***/
 /***NAVBAR-CLOSE***/
+/***Jumbotron***/
+#jumbotron {
+  margin-top: 60px;
+  background-image: url('https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg');
+  background-size: cover;
+  height: 800px;
+  background-position: center center;
+  backface-visibility: hidden;
+  transform: translateZ(0px);
+}
+#hero-title {
+  color: white;
+}
+section#sing_up + div {
+  padding: 50px 20px;
+}
+#sign_up {
+  text-align: center;
+}
+#sign_up_form input {
+  width: 100%;
+  margin: 5px 0;
+}
 
+#btn_form_signup {
+  background-color: #579aff;
 
-
+}
+#signup_with_g {
+  margin: 5px 0;
+  background-color: white;
+  border:2px outset rgba(255,255,255, 0.3);;
+}
 /* responsive */
 @media (max-width: 992px) {
   ul.items_nav{
     display: none;
   }
   #toogle_menu span {
+    width: 20px;
     border-bottom: 2px solid #006aff;
     margin:5px;
-    width: 20px;
     display: block;
   }
   #toogle_menu {
-    display: inline-block;
     width: 60px;
+    display: inline-block;
     position: relative;
     float: right;
     line-height: 60px;
