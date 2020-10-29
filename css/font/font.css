@@ -3,13 +3,27 @@
 body {
   font-family: 'Roboto',Helvetica,Arial,sans-serif;
   font-size: 20px;
+  color: rgba(3,27,78,.7);
 }
+h1, h2, h3, h4 {
+    margin: 0 0 16px;
+    color: #031b4e;
+}
+
 h1 {
   font-size: 2.9em;
 }
 
 h6 {
   font-size: 0.8em;
+}
+
+p {
+  font-size: 16px;
+}
+
+#hero-title h1,#btn_form_signup, #hero-title {
+  color: white;
 }
 
 /***HEADER***/
@@ -45,6 +59,17 @@ ul.items_nav > li > a {
 
 /***Jumbotron-CLOSE***/
 /***HEADER-CLOSE***/
+ul#menu_tab_services > li {
+  font-size: 18px;
+  font-weight: 500;
+}
+#description_deploy {
+  font-size: 20px;
+}
+#deploy_and_scale h3 {
+  font-size: 18px;
+  margin-top: 8px
+}
 /* responsive */
 /* table */
 @media (max-width: 992px) {
@@ -60,5 +85,6 @@ ul.items_nav > li > a {
   body {
     font-size: 13px;
   }
+
 
 }

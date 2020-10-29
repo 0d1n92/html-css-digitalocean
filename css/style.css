@@ -46,9 +46,7 @@ a:hover {
   font-size: 1.0em;
   text-decoration:none;
 }
-#btn_form_signup, #hero-title {
-  color: white;
-}
+
 /***HEADER***/
 /***NAVBAR***/
 nav {
@@ -85,7 +83,10 @@ ul.items_nav > li > a {
   vertical-align: middle;
   line-height: 60px;
 }
-.btn_outline_blu, ul.items_nav > li > a:hover {
+ul.items_nav > li:hover {
+  border-bottom: 3px solid  #006aff;
+}
+.btn_outline_blue, ul.items_nav > li > a:hover {
   background-color: transparent;
   color: #006aff;
 }
@@ -191,9 +192,28 @@ section#sing_up + div {
 }
 /***section-section_parteners-CLOSE***/
 /***SECTION DEPLOY AND SCALE***/
+#deploy_items_menu, #deploy_items .col-sm-6 {
+  margin-bottom: 32px;
+}
+
 ul#menu_tab_services {
+  padding-left: 0;
   list-style: none;
-  border-left: 2px solid lightgrey;
+  color: rgba(3,27,78,.5);
+
+}
+ul#menu_tab_services li {
+  padding: 16px 32px 16px 16px;
+  border-left: 2px solid #e5e8ed;
+}
+ul#menu_tab_services li:hover {
+  color: #031b4e;
+}
+ul#menu_tab_services li:active{
+  border-left: 2px solid  #0069ff;
+}
+#description_deploy {
+  margin: 64px 0;
 }
 /***SECTION DEPLOY AND SCALE-CLOSE***/
 /***MAIN-CLOSE***/
