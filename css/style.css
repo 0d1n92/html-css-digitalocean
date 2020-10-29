@@ -2,6 +2,11 @@
 .debug {
   background-color: red;
 }
+.debug [class*="col-"]{
+  /* height: 300px; */
+  background-color: pink;
+  border: 1px solid darkolivegreen;
+}
 /***debug-close***/
 body {
   margin: 0;
@@ -12,11 +17,37 @@ body {
 a:hover {
     color: #006aff!important;
   }
+  .bg_grey {
+    background-color:#f3f5f9;
+  }
 
 .vertical_align_center {
   position: relative;
   top: 50%;
   transform: translate(0, -50%);
+}
+
+.link_arrow_blu {
+  display: inline-block;
+  color: #0069ff;
+  font-size: 0.75em;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.link_arrow_blu::after{
+  display: inline-block;
+  font-family: "Font Awesome 5 Free";
+  content: "\f105";
+  color:inherit;
+  margin-left: 8px;
+  font-weight: 900;
+  font-size: 1.0em;
+  text-decoration:none;
+}
+#btn_form_signup, #hero-title {
+  color: white;
 }
 /***HEADER***/
 /***NAVBAR***/
@@ -54,7 +85,7 @@ ul.items_nav > li > a {
   vertical-align: middle;
   line-height: 60px;
 }
-ul.items_nav > li > a:hover {
+.btn_outline_blu, ul.items_nav > li > a:hover {
   background-color: transparent;
   color: #006aff;
 }
@@ -72,9 +103,7 @@ ul.items_nav > li > a:hover {
 /***navbar-left-CLOSE***/
 /***navbar-right***/
 .btn_outline_blue {
-  background-color: transparent;
   border: 2px solid #006aff;
-  color: #006aff;
 }
 .btn_outline_blue:hover {
   background-color: #006aff;
@@ -99,9 +128,7 @@ ul.items_nav > li > a:hover {
 }
 
 /***section-hero***/
-#hero-title {
-  color: white;
-}
+
 /***section-hero-CLOSE***/
 /***section-signup***/
 section#sing_up + div {
@@ -127,7 +154,6 @@ section#sing_up + div {
 
 #btn_form_signup {
   background-color: #579aff;
-  color: white;
   font-size: 0.9em;
   font-weight: 500;
 }
@@ -148,13 +174,20 @@ section#sing_up + div {
 /***Jumbotron-CLOSE***/
 /***HEADER-CLOSE***/
 /***MAIN***/
-#padding_section {
+.padding_section {
   padding-top: 64px;
   padding-bottom: 64px;
 }
 /***section-section_parteners***/
 #section_parteners {
+
   text-align: center;
+}
+
+
+.patener_brands {
+  height: 70px;
+  vertical-align: middle;
 }
 /***section-section_parteners-CLOSE***/
 /***MAIN-CLOSE***/
@@ -177,4 +210,9 @@ section#sing_up + div {
     line-height: 60px;
   }
 
+}
+@media (max-width: 768px) {
+  .patener_brands {
+    height: 50px;
+  }
 }

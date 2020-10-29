@@ -8,6 +8,10 @@ h1 {
   font-size: 2.9em;
 }
 
+h6 {
+  font-size: 0.8em;
+}
+
 /***HEADER***/
 /***NAV***/
 ul.items_nav > li > a {
@@ -56,5 +60,5 @@ ul.items_nav > li > a {
   body {
     font-size: 13px;
   }
-  
+
 }

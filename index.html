@@ -12,14 +12,18 @@
     <link rel="stylesheet" href="css/font/font.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
-  <body class="debug">
+  <body>
     <header>
+
+      <!-- NAVBAR -->
       <nav id="nav" class="navbar navbar-fixed-top">
         <div class="container">
+          <!-- NAVBAR HEADER 100% RESPONSIVE AUTO DESKTOP -->
           <div class="navbar-header">
             <a id="navbar_brand" class="navbar-brand" href="#">
             <img alt="Brand" src="img/logo.png">
             </a>
+            <!-- burger-icon -->
             <div id="toogle_menu">
               <a class="btn" href="#">
                 <span></span>
@@ -27,31 +31,43 @@
                 <span></span>
               </a>
             </div>
+            <!-- burger-icon-CLOSE-->
           </div>
+          <!-- NAVBAR HEADER-CLOSE-->
+          <!---menu-sx-NAV-->
           <ul class="items_nav nav navbar-nav">
             <li><a class="my_dropdown" href="#">Products</a></li>
             <li><a href="#">Customers</a></li>
             <li><a class="my_dropdown" href="#">Community</a></li>
             <li><a href="#">Pricing</a></li>
           </ul>
+          <!---menu-sx-nav-CLOSE-->
+          <!---menu-Dx-NAV--->
           <ul class="items_nav nav navbar-nav navbar-right ">
             <li><a href="">Docs</a></li>
             <li><a class="my_dropdown" href="">Support</a></li>
             <li><a href="">Login</a></li>
             <li><a href=""><span class="btn_outline_blue btn">Sign Up</span></a></li>
           </ul>
-
+          <!---menu-Dx-NAV-CLOSE--->
         </div>
       </nav>
+      <!-- NAVBAR-CLOSE -->
+
+      <!-- jumbotron -->
       <div id="jumbotron">
         <div class="vertical_align_center container">
           <div id="hero-body" class="row">
+            <!-- section SX -->
             <section id="hero-title" class="col-xs-12 col-sm-7">
               <div class="wrap_col">
                 <h1>The simplest cloud platform for developers & teams</h1>
                 <p id="description">Deploy, menage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, whether you're running one virtual macchine er ten thousand.</p>
               </div>
             </section>
+              <!-- section-SX-CLOSE -->
+
+            <!-- section DX -->
             <section id="sign_up" class="col-xs-12 col-sm-5">
                 <div class="panel panel-default">
                   <div class="panel-body">
@@ -67,16 +83,46 @@
                   </div>
                 </div>
             </section>
+            <!--section-DX-CLOSE -->
+
           </div>
         </div>
       </div>
+      <!-- jumbotron-CLOSE -->
+
     </header>
+
     <main>
-      <div id="section_parteners" class="padding_section">
+
+      <section id="section_parteners" class="bg_grey padding_section">
+        <!--class padding_section for space box top and bottom -->
         <div class="container">
-          <h4 class="text-uppercase">innovative businesses trust digitalocean</h4>
+          <h6 class="text-uppercase">innovative businesses trust digitalocean</h6>
+          <!-- section-PARTER-BRANDS -->
+          <div class="row">
+            <div class="col-xs-12 col-sm-6">
+              <div class="row">
+              <img class="patener_brands patener_brands col-sm-4 col-xs-4" src="img/icon/docker.svg" alt="Docker">
+              <img class="patener_brands col-xs-4" src="img/icon/gitlab.svg" alt="Docker">
+              <img class="patener_brands col-xs-4" src="img/icon/slack.svg" alt="Docker">
+            </div>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+              <div class="row">
+              <img class="patener_brands col-xs-4" src="img/icon/hashicorp.svg" alt="Docker">
+              <img class="patener_brands col-xs-4" src="img/icon/hashicorp.svg" alt="Docker">
+              <img class="patener_brands col-xs-4" src="img/icon/splunklogo.svg" alt="Docker">
+            </div>
+            </div>
+            <a class="link_arrow_blu">View Costumers Stories</a>
+          </div>
+          <!--section-PARTER-BRANDS-CLOSE -->
         </div>
-      </div>
+      </section>
+      <section id="">
+
+      </section>
+
     </main>
   </body>
 </html>
