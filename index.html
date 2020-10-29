@@ -24,7 +24,7 @@
             <img alt="Brand" src="img/logo.png">
             </a>
             <!-- burger-icon -->
-            <div id="toogle_menu" class="hidden-lg">
+            <div id="toogle_menu">
               <a class="btn" href="#">
                 <span></span>
                 <span></span>
@@ -35,7 +35,7 @@
           </div>
           <!-- NAVBAR HEADER-CLOSE-->
           <!---menu-sx-NAV-->
-          <ul class="items_nav nav navbar-nav visible-lg-inline">
+          <ul class="items_nav nav navbar-nav ">
             <li><a class="my_dropdown" href="#">Products</a></li>
             <li><a href="#">Customers</a></li>
             <li><a class="my_dropdown" href="#">Community</a></li>
@@ -43,7 +43,7 @@
           </ul>
           <!---menu-sx-nav-CLOSE-->
           <!---menu-Dx-NAV--->
-          <ul class="items_nav nav navbar-nav navbar-right visible-lg-inline-block">
+          <ul class="items_nav nav navbar-nav navbar-right">
             <li><a href="">Docs</a></li>
             <li><a class="my_dropdown" href="">Support</a></li>
             <li><a href="">Login</a></li>
@@ -175,14 +175,25 @@
         <div class="container">
           <h2 class="text-center">Designed for developers</h2>
           <p>Build more and spend less time managing your infrastructure with our easy-to-use control panel and API.</p>
-            <div id="carousel" class="row row-no-gutters debug">
-              <div class="col-xs-12 col-sm-offset-3 col-sm-6">
-                <div class="row row-no-gutters">
-                  <div class="col-sm-2 hidden-xs "></div>
-                  <div class="col-sm-8 col-xs-12"></div>
-                  <div class="col-sm-2 hidden-xs"></div>
-                </div>
+          <div id="carousel" class="row">
+            <div class="col-sm-2 hidden-xs">
+              <span id="btn_back"></span>
+            </div>
+            <div id="slider" class="col-xs-12 col-sm-8 ">
+              <div id="slider_img">
+
               </div>
+            </div>
+
+            <div class="col-sm-2 hidden-xs">
+              <span id="btn_next"></span>
+            </div>
+          </div>
+
+          </div>
+
+
+        </div>
             </div>
         </div>
 

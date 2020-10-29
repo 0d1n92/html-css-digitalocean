@@ -83,9 +83,7 @@ ul#menu_tab_services > li {
     font-size: 18px;
   }
 
-  .navbar-header {
-    width: 100%;
-  }
+  
 }
 @media (max-width: 766px) {
   body {
