@@ -24,7 +24,7 @@
             <img alt="Brand" src="img/logo.png">
             </a>
             <!-- burger-icon -->
-            <div id="toogle_menu">
+            <div id="toogle_menu" class="hidden-lg">
               <a class="btn" href="#">
                 <span></span>
                 <span></span>
@@ -35,7 +35,7 @@
           </div>
           <!-- NAVBAR HEADER-CLOSE-->
           <!---menu-sx-NAV-->
-          <ul class="items_nav nav navbar-nav">
+          <ul class="items_nav nav navbar-nav visible-lg-inline">
             <li><a class="my_dropdown" href="#">Products</a></li>
             <li><a href="#">Customers</a></li>
             <li><a class="my_dropdown" href="#">Community</a></li>
@@ -43,7 +43,7 @@
           </ul>
           <!---menu-sx-nav-CLOSE-->
           <!---menu-Dx-NAV--->
-          <ul class="items_nav nav navbar-nav navbar-right ">
+          <ul class="items_nav nav navbar-nav navbar-right visible-lg-inline-block">
             <li><a href="">Docs</a></li>
             <li><a class="my_dropdown" href="">Support</a></li>
             <li><a href="">Login</a></li>
@@ -94,7 +94,7 @@
 
     <main>
 
-      <section id="section_parteners" class="bg_grey padding_section">
+      <section id="section_parteners" class="bg_grey padding_section_64">
         <!--class padding_section for space box top and bottom -->
         <div class="container">
           <h6 class="text-uppercase">innovative businesses trust digitalocean</h6>
@@ -102,16 +102,16 @@
           <div class="row">
             <div class="col-xs-12 col-md-6">
               <div class="row">
-              <img class="patener_brands patener_brands col-md-4 col-xs-4" src="img/icon/docker.svg" alt="Docker">
-              <img class="patener_brands col-xs-4" src="img/icon/gitlab.svg" alt="Docker">
-              <img class="patener_brands col-xs-4" src="img/icon/slack.svg" alt="Docker">
+              <img class="partener_brands col-md-4 col-xs-4" src="img/icon/docker.svg" alt="Docker">
+              <img class="partener_brands col-xs-4" src="img/icon/gitlab.svg" alt="Docker">
+              <img class="partener_brands col-xs-4" src="img/icon/slack.svg" alt="Docker">
             </div>
             </div>
             <div class="col-xs-12 col-md-6">
               <div class="row">
-              <img class="patener_brands col-xs-4" src="img/icon/hashicorp.svg" alt="Docker">
-              <img class="patener_brands col-xs-4" src="img/icon/hashicorp.svg" alt="Docker">
-              <img class="patener_brands col-xs-4" src="img/icon/splunklogo.svg" alt="Docker">
+              <img class=".patener_brands col-xs-4" src="img/icon/hashicorp.svg" alt="Docker">
+              <img class="partener_brands col-xs-4" src="img/icon/hashicorp.svg" alt="Docker">
+              <img class="partener_brands col-xs-4" src="img/icon/splunklogo.svg" alt="Docker">
             </div>
             </div>
             <a class="link_arrow_blu">View Costumers Stories</a>
@@ -119,10 +119,12 @@
           <!--section-PARTER-BRANDS-CLOSE -->
         </div>
       </section>
-      <section id="deploy_and_scale">
+
+      <!-- deploy_and_scale -->
+      <section id="deploy_and_scale" class="padding_section_64 padding_section_120">
         <div class="container">
-          <div <p id="description_deploy" class="text-center">
-            <h2>Deploy and scale seamlessly</h2>
+          <div id="description_deploy">
+            <h2 class="text-center">Deploy and scale seamlessly</h2>
             <p>
               Our optimized configuration process saves your team time when running and scaling distributed applications, AI & machine learning workloads, hosted services, client websites, or CI/CD environments.
             </p>
@@ -143,7 +145,6 @@
                   <img src="img/icon/icona_maledetta.png" alt="">
                   <h3>Cluster deployments</h3>
                   <p>Provision multiple Droplets (virtual machines) in seconds with our control panel, CLI, or directly against our API.</p>
-
                 </div>
                 <div class="col-xs-12 col-sm-6">
                   <img src="img/icon/dropletinboxicon.svg" alt="">
@@ -163,13 +164,31 @@
                   <p>Deploy to any of our data center regions around the world.</p>
                 </div>
               </div>
-
             </div>
-
           </div>
         </div>
       </section>
+      <!-- deploy_and_scale-CLOSE -->
 
+      <!-- carousel_section -->
+      <section id="carousel_section" class="bg_grey padding_section_120">
+        <div class="container">
+          <h2 class="text-center">Designed for developers</h2>
+          <p>Build more and spend less time managing your infrastructure with our easy-to-use control panel and API.</p>
+            <div id="carousel" class="row row-no-gutters debug">
+              <div class="col-xs-12 col-sm-offset-3 col-sm-6">
+                <div class="row row-no-gutters">
+                  <div class="col-sm-2 hidden-xs "></div>
+                  <div class="col-sm-8 col-xs-12"></div>
+                  <div class="col-sm-2 hidden-xs"></div>
+                </div>
+              </div>
+            </div>
+        </div>
+
+
+      </section>
+      <!-- carousel_section-CLOSE -->
     </main>
   </body>
 </html>

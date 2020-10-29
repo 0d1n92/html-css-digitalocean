@@ -25,7 +25,13 @@ p {
 #hero-title h1,#btn_form_signup, #hero-title {
   color: white;
 }
-
+#description_deploy p, #sign_up, #section_parteners, .container > p, #carousel_section {
+  font-size: 20px;
+  text-align: center;
+}
+#description_deploy p, .container > p {
+  font-weight: 400;
+}
 /***HEADER***/
 /***NAV***/
 ul.items_nav > li > a {
@@ -63,13 +69,13 @@ ul#menu_tab_services > li {
   font-size: 18px;
   font-weight: 500;
 }
-#description_deploy {
-  font-size: 20px;
-}
+
 #deploy_and_scale h3 {
   font-size: 18px;
   margin-top: 8px
 }
+
+
 /* responsive */
 /* table */
 @media (max-width: 992px) {
