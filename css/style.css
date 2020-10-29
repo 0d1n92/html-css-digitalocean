@@ -3,7 +3,7 @@
   background-color: red;
 }
 .debug [class*="col-"]{
-  /* height: 300px; */
+  height: 300px;
   background-color: pink;
   border: 1px solid darkolivegreen;
 }
@@ -190,6 +190,12 @@ section#sing_up + div {
   vertical-align: middle;
 }
 /***section-section_parteners-CLOSE***/
+/***SECTION DEPLOY AND SCALE***/
+ul#menu_tab_services {
+  list-style: none;
+  border-left: 2px solid lightgrey;
+}
+/***SECTION DEPLOY AND SCALE-CLOSE***/
 /***MAIN-CLOSE***/
 /* responsive */
 @media (max-width: 992px) {
@@ -210,9 +216,4 @@ section#sing_up + div {
     line-height: 60px;
   }
 
-}
-@media (max-width: 768px) {
-  .patener_brands {
-    height: 50px;
-  }
 }
