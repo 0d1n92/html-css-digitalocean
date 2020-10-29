@@ -74,7 +74,31 @@ ul#menu_tab_services > li {
   font-size: 18px;
   margin-top: 8px
 }
-
+#carousel_section h2 {
+  margin-bottom: 36px;
+}
+#carousel p {
+  font-size: 16px;
+  line-height: 25.6px;
+  font-weight: 500;
+}
+ul#selection_dot {
+  list-style: circle;
+}
+ul#selection_dot li {
+  display: inline-block;
+  color: #0069ff;;
+}
+ul#selection_dot li::after{
+  content: "\25CB";
+  color:inherit;
+  display: inline-block;
+  font-weight: 900;
+  font-size: 24px;
+}
+#dot_now::after {
+  content: "\25CF"!important;
+}
 
 /* responsive */
 /* table */
@@ -83,7 +107,7 @@ ul#menu_tab_services > li {
     font-size: 18px;
   }
 
-  
+
 }
 @media (max-width: 766px) {
   body {

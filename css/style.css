@@ -221,7 +221,7 @@ ul#menu_tab_services li:active{
 /***carousel section***/
 #slider_img {
   height: 100%;
-  background: url("../img/Screen-Shot.png")no-repeat;
+  background: url("../img/screen-shot.png")no-repeat;
   background-size: contain;
   background-position: center;
 }
