@@ -27,7 +27,7 @@ p {
   font-size: 16px;
 }
 
-#hero-title h1,#btn_form_signup, #hero-title {
+#logistic_server_section h2, #hero-title h1,#btn_form_signup, #hero-title {
   color: white;
 }
 #description_deploy p, #sign_up, #section_parteners, .container > p, #carousel_section {
@@ -36,6 +36,17 @@ p {
 }
 #description_deploy p, .container > p {
   font-weight: 500;
+}
+/* arrow_link */
+table.region_server td a::after,  .link_arrow_blu::after{
+  display: inline-block;
+  font-family: "Font Awesome 5 Free";
+  content: "\f105";
+  color:inherit;
+  margin-left: 8px;
+  font-weight: 900;
+  font-size: 1.0em;
+  text-decoration:none;
 }
 /***HEADER***/
 /***NAV***/
@@ -90,6 +101,22 @@ ul#menu_tab_services > li {
 }
 
 /***carousel-section-CLOSE***/
+/***logistic_server_section***/
+
+/***logistic_server_section-CLOSE***/
+table.region_server {
+  font-size: 13px;
+  color: white;
+}
+table.region_server td {
+  opacity: 0.6;
+}
+table.region_server td a {
+  color: rgb(0, 215, 210);
+  opacity: 1;
+  font-weight: 600;
+}
+
 /* responsive */
 /* table */
 @media (max-width: 992px) {
