@@ -92,7 +92,7 @@ ul#menu_tab_services > li {
 #carousel_section h2 {
   margin-bottom: 36px;
 }
-#carousel p {
+.carousel p {
   font-size: 16px;
   line-height: 25.6px;
   font-weight: 500;
@@ -102,8 +102,6 @@ ul#menu_tab_services > li {
 
 /***carousel-section-CLOSE***/
 /***logistic_server_section***/
-
-/***logistic_server_section-CLOSE***/
 table.region_server {
   font-size: 13px;
   color: white;
@@ -116,6 +114,19 @@ table.region_server td a {
   opacity: 1;
   font-weight: 600;
 }
+/***logistic_server_section-CLOSE***/
+#slider_teams p {
+  font-size: 1.4em;
+  font-weight: 300;
+  margin-bottom: 64px;
+}
+p #agency, #teams_log strong {
+  color: black;
+  font-size: 16px;
+}
+#slider_teams p#agency {
+  margin-bottom:10px;
+}
 
 /* responsive */
 /* table */
@@ -123,7 +134,7 @@ table.region_server td a {
   body {
     font-size: 18px;
   }
-  #carousel p {
+  .carousel p {
     margin-top: 0;
   }
 }

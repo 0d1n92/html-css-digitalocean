@@ -49,6 +49,7 @@ a:hover {
   margin-bottom: 64px;
 }
 
+
 /***HEADER***/
 /***NAVBAR***/
 nav {
@@ -228,10 +229,10 @@ ul#menu_tab_services li:active{
 #slider{
  height: 570px;
 }
-#carousel .col-sm-2 {
+.carousel .col-sm-2 {
   height:570px;
 }
-#btn_next::after {
+.btn_next::after {
   font-family: "Font Awesome 5 Free";
   content: "\f054";
   color:inherit;
@@ -241,15 +242,15 @@ ul#menu_tab_services li:active{
   margin-left: 5px;
 
 }
-#btn_back {
+.btn_back {
   float: right;
   margin-right: -15px;
 }
-#btn_next {
+.btn_next {
   float: left;
   margin-left: -15px;
 }
-#btn_back::after {
+.btn_back::after {
   font-family: "Font Awesome 5 Free";
   content: "\f053";
   color:inherit;
@@ -258,13 +259,13 @@ ul#menu_tab_services li:active{
   text-decoration:none;
   margin-right: 5px;
 }
-#carousel span[id*="btn_"]:hover {
+.carousel span[class*="btn_"]:hover {
   color: #0069ff;
 }
-#carousel span[id*="btn_"]:active {
+.carousel span[class*="btn_"]:active {
   border: 2px solid  #0069ff;
 }
-#carousel span[id*="btn_"] {
+.carousel span[class*="btn_"] {
   display: block;
   width: 70px;
   height: 70px;
@@ -275,22 +276,23 @@ ul#menu_tab_services li:active{
   transform: translateY(-50%);
 }
 /***DOT LIST***/
-ul#selection_dot {
+ul.selection_dot {
   list-style: circle;
-    position: relative;
+  position: relative;
+  padding-left: 0;
 }
-ul#selection_dot li {
+ul.selection_dot li {
   display: inline-block;
   color: #0069ff;;
 }
-ul#selection_dot li::after{
+ul.selection_dot li::after{
   content: "\25CB";
   color:inherit;
   display: inline-block;
   font-weight: 900;
   font-size: 24px;
 }
-#dot_now::after {
+.dot_now::after {
   content: "\25CF"!important;
 }
 /***carousel section-CLOSE***/
@@ -311,7 +313,7 @@ table.region_server tbody tr td, table.region_server tbody tr th {
   border-top: 0;
 }
 table.region_server tbody tr {
-  border-top: 1px solid rgba( 255, 255, 255, 0.6 )
+  border-top: 1px solid rgba( 255, 255, 255, 0.4 )
 ;
 }
 
@@ -327,6 +329,24 @@ table.region_server tbody tr:first-child {
 }
 /***table server-CLOSE***/
 /***logistic_server_section-CLOSE***/
+#slider_teams  {
+  height: 470px;
+}
+#development_teams .carousel .col-sm-2 {
+  height: 400px; /*modificare */
+}
+#teams_log {
+  width: 100%;
+
+}
+
+#teams_log img {
+  max-width: 200px;
+  margin-bottom: 36px;
+
+}
+/***development_teams***/
+/***development_teams-CLOSE***/
 /***MAIN-CLOSE***/
 /* responsive */
  @media (max-width: 992px) {
@@ -354,14 +374,21 @@ ul.items_nav {
    #slider{
    height: 390px;
   }
-  #carousel .col-sm-2 {
+  .carousel .col-sm-2 {
     height:390px;
   }
 
 }
 /* smartphone */
-/*@media (max-width: 766px) {
+@media (max-width: 766px) {
    /* #slider {
     height: 290px;
+  }*/
+    #teams_log, #slider_img {
+    max-width: 300px;
+    margin: auto;
   }
-}*/
+  /* #teams_log {
+    max-height: 320px;
+  } */
+}
