@@ -306,9 +306,26 @@ ul#selection_dot li::after{
 #logistic_server_section {
   background: linear-gradient(0deg, rgba(0,33,156,1) 5%, rgba(0,49,174,1) 39%, rgba(0,70,196,1) 100%);
 }
-table.region_server {
-  border-top: 2px solid white;
+/***table server***/
+table.region_server tbody tr td, table.region_server tbody tr th {
+  border-top: 0;
 }
+table.region_server tbody tr {
+  border-top: 1px solid rgba( 255, 255, 255, 0.6 )
+;
+}
+
+table.region_server tbody tr:first-child {
+  border-top: none !important;
+}
+
+#fist_table table.region_server tbody tr:nth-child(2n+1) {
+  border-top: 1px solid white;
+;}
+#second_table table.region_server tbody tr:nth-child(2n+2) {
+  border-top: 1px solid white;
+}
+/***table server-CLOSE***/
 /***logistic_server_section-CLOSE***/
 /***MAIN-CLOSE***/
 /* responsive */
