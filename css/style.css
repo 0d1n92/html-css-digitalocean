@@ -219,18 +219,22 @@ ul#menu_tab_services li:active{
 }
 /***SECTION DEPLOY AND SCALE-CLOSE***/
 /***carousel section***/
+#carousel_section.container > p {
+  margin-bottom: 64px;
+}
+
 #slider_img {
   position: relative;
-  height: 100%;
+  height:calc(100% - 45.6px);
   background: url("../img/screen-shot.png")no-repeat;
   background-size: contain;
   background-position: center;
 }
 #slider{
- height: 470px;
+ height: 570px;
 }
 #carousel .col-sm-2 {
-  height:470px;
+  height:570px;
 }
 #btn_next::after {
   font-family: "Font Awesome 5 Free";
@@ -319,17 +323,17 @@ ul.items_nav {
     float: right;
     line-height: 60px;
   }
-  #slider{
+  /* #slider{
    height: 350px;
   }
   #carousel .col-sm-2 {
     height:350px;
-  }
+  } */
 
 }
 /* smartphone */
-@media (max-width: 766px) {
-   #slider {
+/*@media (max-width: 766px) {
+   /* #slider {
     height: 290px;
   }
-}
+}*/
