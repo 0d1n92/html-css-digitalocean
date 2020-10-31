@@ -404,12 +404,13 @@ p#copyright span {
 	position: relative;
 	border-radius: .4em;
   padding: 10px 10px;
-  height: 50px;
   background-color: white;
+  max-height: 100px;
+  min-height: 50px;
 }
 #ballon_chat p {
-  font-size: 12px;
-  font-weight: 600;
+  font-size: 14px;
+  font-weight: 500;
 }
 
 #ballon_chat:after {
@@ -448,8 +449,8 @@ span.my_bage {
   color: white;
   font-size: 12px;
   background-color: red;
-  right:18px;
-  top:-5px;
+  margin-left: 25px;
+  margin-top: -10px;
 }
 
 /* responsive */
@@ -462,7 +463,9 @@ ul.items_nav {
 .navbar-header {
   width:calc(100% + 15px);
 }
-
+#avatar_bot {
+  bottom: 130px;
+}
   #toogle_menu span {
     width: 20px;
     border-bottom: 2px solid #006aff;
