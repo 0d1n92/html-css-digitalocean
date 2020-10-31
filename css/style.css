@@ -161,6 +161,10 @@ section#sing_up + div {
   border-radius: 5px;
   height: 50px;
 }
+#sign_up_form input:focus {
+  border-color: rgb(0, 105, 255);
+  outline: rgb(0, 105, 255);
+}
 
 #btn_form_signup {
   background-color: #579aff;
@@ -174,6 +178,9 @@ section#sing_up + div {
   font-size: 0.9em;
   font-weight: 500;
   border:2px outset rgba(255,255,255, 0.3);
+}
+#btn_form_signup:hover, #signup_with_g:hover {
+  opacity: 0.6;
 }
 #signup_with_g img {
   height: 30px;
@@ -215,6 +222,7 @@ ul#menu_tab_services li {
 }
 ul#menu_tab_services li:hover {
   color: #031b4e;
+  cursor: pointer;
 }
 ul#menu_tab_services li:active{
   border-left: 2px solid  #0069ff;
@@ -252,6 +260,9 @@ ul#menu_tab_services li:active{
 .btn_back {
   float: right;
   margin-right: -15px;
+}
+.btn_next, .btn_back {
+  cursor: pointer;
 }
 .btn_next {
   float: left;
@@ -291,6 +302,7 @@ ul.selection_dot {
 ul.selection_dot li {
   display: inline-block;
   color: #0069ff;;
+  cursor: pointer;
 }
 ul.selection_dot li::after{
   content: "\25CB";
@@ -381,6 +393,65 @@ p#copyright span {
   display: block;
 }
 /***FOOTER-CLOSE***/
+/***chat widget***/
+#widget_chat {
+  width: 350px;
+  position:fixed ;
+  bottom: 20px;
+  right: 20px;
+}
+#ballon_chat {
+	position: relative;
+	border-radius: .4em;
+  padding: 10px 10px;
+  height: 50px;
+  background-color: white;
+}
+#ballon_chat p {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+#ballon_chat:after {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 50%;
+  width: 0;
+  height: 0;
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  border-left: 14px solid white;
+  margin-top: -10px;
+	margin-right: -10px;
+	transform: translateY(50%);
+}
+
+#avatar_bot {
+  line-height: 50px;
+}
+#avatar_bot img {
+  height: 50px;
+  border-radius: 5px;
+  vertical-align: middle;
+}
+
+span.my_bage {
+  display: block;
+  height:25px;
+  width: 25px;
+  line-height: 21px;
+  text-align: center;
+  border-radius: 50%;
+  position: absolute;
+  border: 2px solid white;
+  color: white;
+  font-size: 12px;
+  background-color: red;
+  right:18px;
+  top:-5px;
+}
+
 /* responsive */
 /* table */
  @media (max-width: 992px) {
@@ -411,7 +482,10 @@ ul.items_nav {
   .carousel .col-sm-2 {
     height:390px;
   }
+  #widget_chat {
+    left: 10px;
 
+  }
 }
 /* smartphone */
 @media (max-width: 766px) {

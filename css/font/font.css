@@ -49,6 +49,11 @@ table.region_server td a::after,  .link_arrow_blu::after{
   font-size: 1.0em;
   text-decoration:none;
 }
+
+.link_arrow_blu:hover {
+  color:  #1633ff;
+  cursor: pointer;
+}
 /***HEADER***/
 /***NAV***/
 ul.items_nav > li > a {
@@ -115,6 +120,10 @@ table.region_server td a {
   color: rgb(0, 215, 210);
   opacity: 1;
   font-weight: 600;
+}
+table.region_server td a:hover {
+  color: #010E28;
+  text-decoration: none;
 }
 /***logistic_server_section-CLOSE***/
 /***sectrion development_teams***/
