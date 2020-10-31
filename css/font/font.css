@@ -5,6 +5,7 @@ body {
   font-size: 20px;
   color: rgba(3,27,78,.7);
 }
+
 h1, h2, h3, h4 {
     margin: 0 0 16px;
     color: #031b4e;
@@ -81,6 +82,7 @@ ul.items_nav > li > a {
 
 /***Jumbotron-CLOSE***/
 /***HEADER-CLOSE***/
+/***MAIN****/
 /***SECTION DEPLOY AND SCALE***/
 ul#menu_tab_services > li {
   font-size: 18px;
@@ -115,6 +117,7 @@ table.region_server td a {
   font-weight: 600;
 }
 /***logistic_server_section-CLOSE***/
+/***sectrion development_teams***/
 #slider_teams p {
   font-size: 1.4em;
   font-weight: 300;
@@ -127,7 +130,29 @@ p #agency, #teams_log strong {
 #slider_teams p#agency {
   margin-bottom:10px;
 }
+/***sectrion development_teams-CLOSE***/
+/***MAIN-CLOSE***/
+/***FOOTER***/
+footer, footer a {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+}
+footer ul {
+  margin:22px 0;
+  padding-left: 0;
+}
+footer ul li:first-child {
+  font-weight: 600;
+  color: white;
+  margin-bottom: 24px;
+}
 
+p#copyright span {
+font-size: 12px;
+rgba(255, 255, 255, 0.1);
+}
+
+/***FOOTER-CLOSE***/
 /* responsive */
 /* table */
 @media (max-width: 992px) {
