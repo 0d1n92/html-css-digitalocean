@@ -95,7 +95,7 @@ ul.items_nav > li > a {
   vertical-align: middle;
   line-height: 60px;
 }
-ul.items_nav > li:hover:not(#sign_up_) {
+ul.items_nav > li:active:not(#sign_up_nav) {
   border-bottom: 3px solid  #006aff;
 }
 
@@ -337,7 +337,8 @@ table.region_server tbody tr:first-child {
 /***table server-CLOSE***/
 /***logistic_server_section-CLOSE***/
 #slider_teams  {
-  height: 470px;
+  min-height: 470px;
+  max-height: 600px;
 }
 #development_teams .carousel .col-sm-2 {
   height: 400px; /*modificare */
