@@ -127,6 +127,9 @@ table.region_server td a:hover {
 }
 /***logistic_server_section-CLOSE***/
 /***sectrion development_teams***/
+#development_teams h2 {
+  padding-bottom: 64px;
+}
 #slider_teams p {
   font-size: 1.4em;
   font-weight: 300;
