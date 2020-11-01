@@ -132,7 +132,7 @@ table.region_server td a:hover {
   font-weight: 300;
   margin-bottom: 64px;
 }
-p #agency, #teams_log strong {
+p#agency, #teams_log strong {
   color: black;
   font-size: 16px;
 }
