@@ -493,6 +493,9 @@ ul.items_nav {
    #avatar_bot {
     margin-bottom: 10px;
   }
+  #ballon_chat {
+    width: 80%;
+  }
   /*#ballon_chat {
     position: relative;
     bottom:10px;
