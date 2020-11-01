@@ -133,14 +133,13 @@ table.region_server td a:hover {
 #slider_teams p {
   font-size: 1.4em;
   font-weight: 300;
-  margin-bottom: 64px;
 }
 p#agency, #teams_log strong {
   color: black;
   font-size: 16px;
 }
 #slider_teams p#agency {
-  margin-bottom:10px;
+  margin-top:5px;
 }
 /***sectrion development_teams-CLOSE***/
 /***MAIN-CLOSE***/

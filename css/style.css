@@ -403,7 +403,7 @@ p#copyright span {
 }
 #ballon_chat {
 	position: relative;
-	border-radius: .4em;
+	border-radius: 5px;
   padding: 10px 10px;
   background-color: white;
   max-height: 100px;
