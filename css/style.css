@@ -488,7 +488,6 @@ ul.items_nav {
   }
   #widget_chat {
     left: 20px;
-
   }
    #avatar_bot {
     margin-bottom: 10px;
@@ -508,7 +507,7 @@ ul.items_nav {
     height: 290px;
   }*/
   #section_parteners img[src*="hashicorp"] {
-    padding: 0 15px;
+    padding: 15px;
   }
     #teams_log, #slider_img {
     max-width: 300px;
