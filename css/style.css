@@ -490,15 +490,14 @@ ul.items_nav {
     left: 20px;
 
   }
-  #avatar_bot {
-    bottom: calc(100% + 20px);
-    position: absolute;
+   #avatar_bot {
+    margin-bottom: 10px;
   }
-  #ballon_chat {
+  /*#ballon_chat {
     position: relative;
     bottom:10px;
     width: 80%;
-  }
+  } */
 }
 /* smartphone */
 @media (max-width: 766px) {
