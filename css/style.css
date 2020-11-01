@@ -463,9 +463,9 @@ ul.items_nav {
 .navbar-header {
   width:calc(100% + 15px);
 }
-#avatar_bot {
+/* #avatar_bot {
   bottom: 130px;
-}
+} */
   #toogle_menu span {
     width: 20px;
     border-bottom: 2px solid #006aff;
@@ -486,8 +486,17 @@ ul.items_nav {
     height:390px;
   }
   #widget_chat {
-    left: 10px;
+    left: 20px;
 
+  }
+  #avatar_bot {
+    bottom: calc(100% + 20px);
+    position: absolute;
+  }
+  #ballon_chat {
+    position: relative;
+    bottom:10px;
+    width: 80%;
   }
 }
 /* smartphone */
