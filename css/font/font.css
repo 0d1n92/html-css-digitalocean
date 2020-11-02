@@ -10,6 +10,9 @@ h1, h2, h3, h4 {
     margin: 0 0 16px;
     color: #031b4e;
 }
+h1 {
+font-size: 3.7em;
+}
 
 h2 {
   font-size: 36px;
@@ -21,7 +24,7 @@ h3 {
 }
 
 h6 {
-  font-size: 0.8em;
+  font-size: 0.75em;
 }
 
 p {

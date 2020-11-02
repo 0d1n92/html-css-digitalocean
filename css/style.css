@@ -36,7 +36,6 @@ a:hover {
 .vertical_align_center {
   position: relative;
   top: 50%;
-  transform: translate(0, -50%);
 }
 
 .link_arrow_blu {
@@ -134,7 +133,8 @@ ul.items_nav > li:active:not(#sign_up_nav) {
   margin-top: 60px;
   background-image: url('https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg');
   background-size: cover;
-  height: 800px;
+  min-height: 800px;
+  max-height: 1180px;
   background-position: center center;
   backface-visibility: hidden;
   transform: translateZ(0px);
