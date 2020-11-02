@@ -47,7 +47,7 @@ a:hover {
   margin-bottom: 10px;
 }
 
-#buildbusiness_section h2, #carousel_section.container > p {
+#description_deploy, #buildbusiness_section h2, #carousel_section.container > p {
   margin-bottom: 64px;
 }
 
@@ -58,17 +58,16 @@ a:hover {
 
 /***HEADER***/
 /***NAVBAR***/
-nav {
-  background-color: white;
+ul.items_nav > li nav, #navbar_brand, ul.items_nav > li > a {
   height: 60px;
 }
+
 #nav {
  min-height: 60px;
 }
 /***navbar-left***/
 #navbar_brand {
   padding: 0 15px;
-  height: 60px;
   line-height: 60px;
 }
 #navbar_brand img {
@@ -80,18 +79,15 @@ nav {
 #toogle_menu {
   display: none;
 }
+
 ul.items_nav:first-of-type {
   position: absolute;
   left:50%;
   transform: translateX(-50%);
 }
-ul.items_nav > li {
-  height: 60px;
 
-}
 ul.items_nav > li > a {
   padding: 0 10px;
-  height: 60px;
   vertical-align: middle;
   line-height: 60px;
 }
@@ -227,9 +223,6 @@ ul#menu_tab_services li:hover {
 ul#menu_tab_services li:active{
   border-left: 2px solid  #0069ff;
 }
-#description_deploy {
-  margin-bottom: 64px;
-}
 
 /***SECTION DEPLOY AND SCALE-CLOSE***/
 /***carousel section***/
@@ -241,12 +234,10 @@ ul#menu_tab_services li:active{
   background-size: contain;
   background-position: center;
 }
-#slider{
+#slider, .carousel .col-sm-2{
  height: 570px;
 }
-.carousel .col-sm-2 {
-  height:570px;
-}
+
 .btn_next::after {
   font-family: "Font Awesome 5 Free";
   content: "\f054";
@@ -475,17 +466,14 @@ ul.items_nav {
     line-height: 60px;
   }
 
-   #slider{
-   height: 390px;
-  }
-  .carousel .col-sm-2 {
+  #slider, .carousel .col-sm-2 {
     height:390px;
   }
 
   #widget_chat {
     left: 20px;
   }
-  
+
    #avatar_bot {
     margin-bottom: 10px;
   }
