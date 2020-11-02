@@ -185,7 +185,6 @@ section#sing_up + div {
 }
 #signup_with_g img {
   height: 30px;
-  float: left;
 }
 
 /***section-signup-CLOSE***/
@@ -213,7 +212,7 @@ section#sing_up + div {
 
 ul#menu_tab_services {
   padding-left: 0;
-  list-style: none;
+
   color: rgba(3,27,78,.5);
 
 }
@@ -341,12 +340,10 @@ table.region_server tbody tr:first-child {
   border-top: none !important;
 }
 
-#fist_table table.region_server tbody tr:nth-child(2n+1) {
+#second_table table.region_server tbody tr:nth-child(2n+2), #fist_table table.region_server tbody tr:nth-child(2n+1) {
   border-top: 1px solid white;
 ;}
-#second_table table.region_server tbody tr:nth-child(2n+2) {
-  border-top: 1px solid white;
-}
+
 /***table server-CLOSE***/
 /***logistic_server_section-CLOSE***/
 #slider_teams  {
@@ -464,9 +461,7 @@ ul.items_nav {
 .navbar-header {
   width:calc(100% + 15px);
 }
-/* #avatar_bot {
-  bottom: 130px;
-} */
+
   #toogle_menu span {
     width: 20px;
     border-bottom: 2px solid #006aff;
@@ -477,7 +472,6 @@ ul.items_nav {
     width: 60px;
     display: inline-block;
     position: relative;
-    float: right;
     line-height: 60px;
   }
    #slider{
@@ -495,17 +489,11 @@ ul.items_nav {
   #ballon_chat {
     width: 80%;
   }
-  /*#ballon_chat {
-    position: relative;
-    bottom:10px;
-    width: 80%;
-  } */
+
 }
 /* smartphone */
 @media (max-width: 766px) {
-   /* #slider {
-    height: 290px;
-  }*/
+
   #section_parteners img[src*="hashicorp"] {
     padding: 15px;
   }
@@ -513,7 +501,5 @@ ul.items_nav {
     max-width: 300px;
     margin: auto;
   }
-  /* #teams_log {
-    max-height: 320px;
-  } */
+
 }

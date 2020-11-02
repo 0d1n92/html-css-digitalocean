@@ -162,12 +162,7 @@ footer, footer a {
   font-size: 14px;
 }
 
-ul#social li {
-  display: inline;
-}
-
 ul#social li a{
-  display: inline;
   color: rgba(255, 255, 255, 0.5);;
 }
 
