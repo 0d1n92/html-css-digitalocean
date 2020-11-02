@@ -208,7 +208,7 @@ section#sing_up + div {
 
 ul#menu_tab_services {
   padding-left: 0;
-
+  list-style: none;
   color: rgba(3,27,78,.5);
 
 }
