@@ -474,15 +474,18 @@ ul.items_nav {
     position: relative;
     line-height: 60px;
   }
+
    #slider{
    height: 390px;
   }
   .carousel .col-sm-2 {
     height:390px;
   }
+
   #widget_chat {
     left: 20px;
   }
+  
    #avatar_bot {
     margin-bottom: 10px;
   }
