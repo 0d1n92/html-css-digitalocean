@@ -202,4 +202,19 @@ color:rgba(255, 255, 255, 0.1);
     font-size: 13px;
   }
 
+  h1 {
+    font-size: 2.2em;
+  }
+
+  h2 {
+    font-size: 1.9em;
+  }
+  #description_deploy p, #sign_up, #section_parteners, .container > p, #carousel_section {
+    font-size: 1.1em;
+  }
+
+  p {
+    font-size: 1em;
+  }
+
 }

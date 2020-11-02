@@ -229,7 +229,7 @@ ul#menu_tab_services li:active{
   border-left: 2px solid  #0069ff;
 }
 #description_deploy {
-  margin: 64px 0;
+  margin-bottom: 64px;
 }
 
 /***SECTION DEPLOY AND SCALE-CLOSE***/
