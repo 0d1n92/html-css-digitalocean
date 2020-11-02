@@ -397,10 +397,6 @@ p#copyright span {
   max-height: 100px;
   min-height: 50px;
 }
-#ballon_chat p {
-  font-size: 14px;
-  font-weight: 500;
-}
 
 #ballon_chat:after {
 	content: '';
@@ -409,10 +405,10 @@ p#copyright span {
 	top: 50%;
   width: 0;
   height: 0;
-  border-top: 7px solid transparent;
-  border-bottom: 7px solid transparent;
-  border-left: 14px solid white;
-  margin-top: -10px;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 20px solid white;
+  margin-top: -8px;
 	margin-right: -10px;
 	transform: translateY(50%);
 }
