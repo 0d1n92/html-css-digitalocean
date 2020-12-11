@@ -1,5 +1,5 @@
 <h1>Site replication digitalocean.com</h1>
-<p>Exercise of html css replication first page of the digitalocen.com site realized through bootstrap, completely responsive</p>
+<p>Exercise of html css replication first page of the digitalocen.com site realized through Bootstrap 3, completely responsive</p>
 <h2>Track exercise</h2>
 
 <p><strong>EN:</strong><br>
