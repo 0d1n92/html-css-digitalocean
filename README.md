@@ -2,6 +2,6 @@
 <p>exercise of html css replication of the digitalocen.com site realized through bootstrap, completely responsive</p>
 
 <h4>Screnshoot result:</h4>
-![image]("(https://drive.google.com/uc?export=view&id=1lNKYQ7Xtsg6qc6QyCwUWVTgKv3oO4zTF")
+<img src="https://drive.google.com/uc?export=view&id=1lNKYQ7Xtsg6qc6QyCwUWVTgKv3oO4zTF">
 
 
